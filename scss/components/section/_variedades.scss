@@ -1,0 +1,32 @@
+  /*html variedades*/
+  .var-body {
+    background-color: #844e8d;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  h1.var-title {
+    font-size: 50px;
+    text-transform: uppercase;
+  }
+  .var-table {
+    table-layout: fixed;
+    width: 50%;
+    border-collapse: collapse;
+    border: 3px solid whitesmoke;
+    margin: auto;
+  }
+  th {
+    padding: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  td {
+    padding: 10px 0 10px 25px;
+    border: 2px solid whitesmoke;
+  }
+  caption {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }

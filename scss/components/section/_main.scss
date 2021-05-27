@@ -1,0 +1,63 @@
+@import "../var/colors";
+main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    .bgImg{
+        background: url(../image/BackgoundOpt.jpg);
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        .bgImg__overlay {
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            opacity: 0.5;
+            background: #403b42;
+          }
+    }
+    .homeCont {
+        margin-left: 8%;
+        text-align: center;
+        .homeCont__titulo{
+            font-family: "Montserrat", sans-serif;
+            font-weight: 700;
+            color: #844e8d;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            line-height: 1em;
+        }
+        .homeCont__subtitulo{
+            color: #fff;
+            text-transform: uppercase;
+            text-align: center;
+            word-spacing: 5px;
+        }
+        .home-btn {
+            font-size: 1em;
+            color: #fff;
+            background: #2EB830;
+            border-radius: 5px;
+            display: inline-block;
+            padding: 10px 13px;
+            margin-top: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            transition: 00.5s;
+            &:hover{
+                letter-spacing: 6px;
+                color: $color-white;
+            }
+          }
+      }
+}

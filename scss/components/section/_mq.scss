@@ -1,0 +1,90 @@
+@media only screen and (max-width: 991px) {
+    header,
+    header.sticky {
+      padding: 10px 28px;
+    }
+    header .navBar {
+      display: none;
+    }
+    header .navBar.active {
+      width: 100%;
+      height: calc(100% - 68px);
+      position: fixed;
+      top: 68px;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background: #fff;
+    }
+    .navBar li {
+      margin-left: 0;
+    }
+    .navBar li a {
+      color: #111;
+      font-size: 1.6em;
+    }
+    .md-padding {
+      padding: 20px;
+    }
+    .home-cont {
+      margin-left: 2%;
+    }
+    #home-title {
+      font-size: 5em;
+    }
+    #home-subtitle {
+      font-size: 25px;
+    }
+    .conocenos {
+      flex-direction: column;
+    }
+    .conocenos .col50 {
+      width: 100%;
+    }
+    .conocenos .col50 .img-cono {
+      height: 300px;
+      margin-top: 17px;
+    }
+    .prod-desc {
+      margin: 10px;
+      grid-column: 1/-1;
+    }
+    .prod-desc .prod-img {
+      height: 260px;
+    }
+    .contact-form {
+      padding: 35px 40px;
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+      header,
+      header.sticky {
+        padding: 7px 9px;
+      }
+      header .logo-cont {
+        width: 34%;
+      }
+      #home-title {
+        font-size: 4em;
+      }
+      #home-subtitle {
+        font-size: 22px;
+      }
+      .home-btn {
+        padding: 6px 13px;
+        margin-top: 5px;
+      }
+      footer {
+        height: 131px;
+      }
+      .footer-redes {
+        width: 70%;
+      }
+      .footer-copyright p {
+        text-align: center;
+      }
+  }

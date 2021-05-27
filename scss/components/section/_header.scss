@@ -1,0 +1,44 @@
+@import "../var/colors";
+
+.navbar {
+  transition: 0.5s;
+  .logo-nav {
+    color: $color-white;
+    text-transform: uppercase;
+    img {
+      width: 1.8em;
+    }
+    &:hover {
+      color: $color-primary;
+    }
+  }
+  #barlist {
+    a {
+      color: #fff;
+      font-size: 1em;
+      font-family: "Poppins", sans-serif;
+      font-weight: 300;
+      &:hover {
+        color: $color-primary;
+      }
+    }
+  }
+}
+nav.sticky {
+  background: $color-white;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  #logo_nav {
+    color: $color-black;
+    &:hover {
+      color: $color-primary;
+    }
+  }
+  #barlist {
+    a {
+      color: $color-black;
+      &:hover {
+        color: $color-primary;
+      }
+    }
+  }
+}
