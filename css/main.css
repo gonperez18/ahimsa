@@ -195,7 +195,8 @@ main {
 .conocenos {
   width: 100%;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  padding: 100px; }
   .conocenos .col50 {
     width: 48%; }
     .conocenos .col50 .col50__titulo {
@@ -304,6 +305,7 @@ main {
 .contact {
   width: 100%;
   height: 100%;
+  margin: 100px;
   background: url(../image/bg-cont2Opt.jpg);
   position: relative;
   left: 0;
@@ -444,17 +446,20 @@ footer {
   #home-subtitle {
     font-size: 25px; }
   .conocenos {
+    padding: 10px;
     flex-direction: column; }
   .conocenos .col50 {
     width: 100%; }
   .conocenos .col50 .img-cono {
     height: 300px;
     margin-top: 17px; }
-  .prod-desc {
+  .prodDesc {
     margin: 10px;
     grid-column: 1/-1; }
-  .prod-desc .prod-img {
+  .prodDesc .prodDesc__img {
     height: 260px; }
+  .contact {
+    margin: 0px; }
   .contact-form {
     padding: 35px 40px;
     margin-top: 20px;

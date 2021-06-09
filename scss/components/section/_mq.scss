@@ -38,6 +38,7 @@
       font-size: 25px;
     }
     .conocenos {
+      padding: 10px;
       flex-direction: column;
     }
     .conocenos .col50 {
@@ -53,6 +54,9 @@
     }
     .prodDesc .prodDesc__img {
       height: 260px;
+    }
+    .contact{
+      margin:0px
     }
     .contact-form {
       padding: 35px 40px;
