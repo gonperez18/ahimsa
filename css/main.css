@@ -439,8 +439,8 @@ footer {
     font-size: 1.6em; }
   .md-padding {
     padding: 20px; }
-  .home-cont {
-    margin-left: 2%; }
+  .homeCont {
+    margin-left: 0; }
   #home-title {
     font-size: 5em; }
   #home-subtitle {
@@ -471,6 +471,8 @@ footer {
     padding: 7px 9px; }
   header .logo-cont {
     width: 34%; }
+  .homeCont {
+    margin-left: 0; }
   #home-title, .title-xl {
     font-size: 4em; }
   #home-subtitle {
