@@ -466,7 +466,7 @@ footer {
     padding: 7px 9px; }
   header .logo-cont {
     width: 34%; }
-  #home-title {
+  #home-title, .title-xl {
     font-size: 4em; }
   #home-subtitle {
     font-size: 22px; }
