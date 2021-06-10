@@ -4,6 +4,7 @@
   display: grid;
   grid-template-rows: minmax(100px, auto) auto;
   background-color: $color-whitep;
+  padding: 100px;
   .prodTitle {
     text-align: center;
     .prodTitle__title {

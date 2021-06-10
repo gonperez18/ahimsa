@@ -235,7 +235,8 @@ main {
 .productos {
   display: grid;
   grid-template-rows: minmax(100px, auto) auto;
-  background-color: #FFFFFF; }
+  background-color: #FFFFFF;
+  padding: 100px; }
   .productos .prodTitle {
     text-align: center; }
     .productos .prodTitle .prodTitle__title {
@@ -453,6 +454,8 @@ footer {
   .conocenos .col50 .img-cono {
     height: 300px;
     margin-top: 17px; }
+  .productos {
+    padding: 50px 0px; }
   .prodDesc {
     margin: 10px;
     grid-column: 1/-1; }
@@ -482,6 +485,8 @@ footer {
     margin-top: 5px; }
   .contact {
     padding: 0px; }
+  .productos {
+    padding: 50px 0px; }
   footer {
     height: 131px; }
   .footer-redes {
