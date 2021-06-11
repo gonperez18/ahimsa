@@ -16,13 +16,14 @@
         content: "";
         display: block;
         height: 4px;
-        width: 40px;
+        width: 70px;
         background-color: $color-secondary;
         margin: auto;
       }
     }
     .prodTitle__text {
       color: $color-black;
+      font-size: 1.5em;
       .prodTitle__capt {
         font-family: "Poppins", sans-serif;
         color: rgb(25, 221, 35);

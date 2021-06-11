@@ -60,12 +60,14 @@
       height: 260px;
     }
     .contact{
-      margin:0px
+      margin:auto;
+      padding: 45px 20px;
+      .contact__form {
+        width: 100%;
+      }
     }
-    .contact-form {
-      padding: 35px 40px;
-      margin-top: 20px;
-      margin-bottom: 30px;
+    .title-md{
+      font-size: 1.7em;
     }
   }
   @media only screen and (max-width: 480px) {
@@ -94,15 +96,17 @@
       }
       .productos{
         padding: 50px 0px;
-  
       }
       footer {
         height: 131px;
-      }
-      .footer-redes {
+        .footerLogo{
+          padding:10px
+        }
+      .footerRedes {
         width: 70%;
       }
       .footer-copyright p {
         text-align: center;
       }
+    }
   }
