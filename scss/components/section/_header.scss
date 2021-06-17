@@ -2,6 +2,9 @@
 
 .navbar {
   transition: 0.5s;
+  .nav_container{
+    padding: 0px 100px;
+  }
   .logo-nav {
     color: $color-white;
     text-transform: uppercase;

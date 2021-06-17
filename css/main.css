@@ -110,6 +110,8 @@ a {
 
 .navbar {
   transition: 0.5s; }
+  .navbar .nav_container {
+    padding: 0px 100px; }
   .navbar .logo-nav {
     color: #FFFDF6;
     text-transform: uppercase; }
