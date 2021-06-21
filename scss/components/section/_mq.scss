@@ -72,6 +72,19 @@
     .title-md{
       font-size: 1.7em;
     }
+    footer {
+      height: 131px;
+      .footerLogo{
+        padding:10px
+      }
+    .footerRedes {
+      width: 70%;
+    }
+    .footer-copyright p {
+      text-align: center;
+      margin-top: 5px;
+    }
+  }
   }
   @media only screen and (max-width: 480px) {
       header,
