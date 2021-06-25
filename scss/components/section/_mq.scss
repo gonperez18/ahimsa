@@ -1,8 +1,5 @@
 @media only screen and (max-width: 986px) {
-    header,
-    header.sticky {
-      padding: 10px 28px;
-    }
+
     header .navBar {
       display: none;
     }
@@ -41,7 +38,7 @@
       font-size: 25px;
     }
     .conocenos {
-      padding: 10px;
+      padding: 30px;
       flex-direction: column;
     }
     .conocenos .col50 {
@@ -85,12 +82,13 @@
       margin-top: 5px;
     }
   }
+  .menu {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 90px 5px 20px 5px;
+  }
   }
   @media only screen and (max-width: 480px) {
-      header,
-      header.sticky {
-        padding: 7px 9px;
-      }
+
       header .logo-cont {
         width: 34%;
       }
@@ -110,6 +108,9 @@
         padding: 6px 13px;
         margin-top: 5px;
       }
+      .conocenos {
+        padding: 30px
+      }
       .contact{
         padding: 0px;
       }
@@ -121,12 +122,15 @@
         .footerLogo{
           padding:10px
         }
-      .footerRedes {
+        .footerRedes{
         width: 70%;
-      }
-      .footer-copyright p {
+        }
+        .footer-copyright p {
         text-align: center;
-      }
+        }
+    }
+    .menu__element {
+      grid-column: 1/-1;
     }
     .title-lg {
       font-size: 2em;
@@ -143,6 +147,8 @@
     width: 100%;}
 
     footer .footerRedes {
-      width: 30%;}
+      width: 70%;}
+      .menu {
+        grid-template-columns: repeat(2, 1fr);}
 
 }

@@ -1,0 +1,52 @@
+.menu-back{
+    background: rgba(0, 0, 0, 0.6);
+}
+.menu{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: stretch;
+    width: 100%;
+    padding: 100px;
+    background: rgb(2,0,36);
+    background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(106,255,136,1) 0%, rgba(197,115,255,1) 100%);
+    .menu__element{
+        width: 340px;
+        margin: 20px;
+        border: 15px solid #fff;
+        box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+        text-align: center;
+        text-transform: capitalize;
+        .menu__contImg{
+            position: relative;
+            width: 100%;
+            height: 300px;
+            .menu__img{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .menu__text {
+            padding: 15px 0 0px;
+            display: flex;
+            flex-direction: column;
+
+            .menu__name {
+              font-family: "Poppins", sans-serif;
+              font-weight: 700;
+              color: #111;
+              margin-bottom: 0px;
+            }
+            .menu__parrafo{
+                font-family: "Poppins", sans-serif;
+                font-weight: 400;
+            }
+        }
+    }
+
+}
