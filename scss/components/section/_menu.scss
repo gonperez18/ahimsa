@@ -1,16 +1,57 @@
+@import "../var/colors";
 .menu-back{
     background: rgba(0, 0, 0, 0.6);
 }
+.main__menu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: url(../../../image/fondomenuop.png) ;
+    position: relative;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px;
+    .main__menu__cont{
+        font-family: "Poppins", sans-serif;
+    .main__menu__title{
+        font-size: 4em;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $color-primary;
+        text-align: center;}
+
+        .main__menu__text{
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: 400;
+            margin-bottom: 20px;
+            span{
+                color: $color-secondary;
+                font-weight: 500;
+            }
+            &::after {
+                content: "";
+                display: block;
+                height: 4px;
+                width: 350px;
+                background-color: whitesmoke;
+                margin: auto;
+              }
+        }
+
+    }
+
 .menu{
     position: relative;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     align-items: stretch;
-    width: 100%;
-    padding: 100px;
-    background: rgb(2,0,36);
-    background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(106,255,136,1) 0%, rgba(197,115,255,1) 100%);
     .menu__element{
         width: 340px;
         margin: 20px;
@@ -49,4 +90,5 @@
         }
     }
 
+}
 }

@@ -82,10 +82,12 @@
       margin-top: 5px;
     }
   }
-  .menu {
+  .main__menu {
+    padding: 100px 15px 50px 15px;
+}
+  .main__menu .menu {
     grid-template-columns: repeat(2, 1fr);
-    padding: 90px 5px 20px 5px;
-  }
+}
   }
   @media only screen and (max-width: 480px) {
 
@@ -132,6 +134,8 @@
     .menu__element {
       grid-column: 1/-1;
     }
+    .main__menu .main__menu__cont .main__menu__title {
+      font-size: 3em;}
     .title-lg {
       font-size: 2em;
   }
@@ -148,7 +152,8 @@
 
     footer .footerRedes {
       width: 70%;}
-      .menu {
-        grid-template-columns: repeat(2, 1fr);}
+      .main__menu .menu {
+        grid-template-columns: repeat(2, 1fr);
+    }
 
 }

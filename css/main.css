@@ -447,46 +447,79 @@ footer {
 .menu-back {
   background: rgba(0, 0, 0, 0.6); }
 
-.menu {
-  position: relative;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
-  align-items: stretch;
+.main__menu {
   width: 100%;
-  padding: 100px;
-  background: #020024;
-  background: linear-gradient(270deg, #020024 0%, #6aff88 0%, #c573ff 100%); }
-  .menu .menu__element {
-    width: 340px;
-    margin: 20px;
-    border: 15px solid #fff;
-    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
-    text-align: center;
-    text-transform: capitalize; }
-    .menu .menu__element .menu__contImg {
-      position: relative;
-      width: 100%;
-      height: 300px; }
-      .menu .menu__element .menu__contImg .menu__img {
-        position: absolute;
-        top: 0;
-        left: 0;
+  display: flex;
+  flex-direction: column;
+  background: url(../../../image/fondomenuop.png);
+  position: relative;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px; }
+  .main__menu .main__menu__cont {
+    font-family: "Poppins", sans-serif; }
+    .main__menu .main__menu__cont .main__menu__title {
+      font-size: 4em;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #900EA7;
+      text-align: center; }
+    .main__menu .main__menu__cont .main__menu__text {
+      text-align: center;
+      font-size: 1.5em;
+      font-weight: 400;
+      margin-bottom: 20px; }
+      .main__menu .main__menu__cont .main__menu__text span {
+        color: #2EB830;
+        font-weight: 500; }
+      .main__menu .main__menu__cont .main__menu__text::after {
+        content: "";
+        display: block;
+        height: 4px;
+        width: 350px;
+        background-color: whitesmoke;
+        margin: auto; }
+  .main__menu .menu {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: stretch; }
+    .main__menu .menu .menu__element {
+      width: 340px;
+      margin: 20px;
+      border: 15px solid #fff;
+      box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+      text-align: center;
+      text-transform: capitalize; }
+      .main__menu .menu .menu__element .menu__contImg {
+        position: relative;
         width: 100%;
-        height: 100%;
-        object-fit: cover; }
-    .menu .menu__element .menu__text {
-      padding: 15px 0 0px;
-      display: flex;
-      flex-direction: column; }
-      .menu .menu__element .menu__text .menu__name {
-        font-family: "Poppins", sans-serif;
-        font-weight: 700;
-        color: #111;
-        margin-bottom: 0px; }
-      .menu .menu__element .menu__text .menu__parrafo {
-        font-family: "Poppins", sans-serif;
-        font-weight: 400; }
+        height: 300px; }
+        .main__menu .menu .menu__element .menu__contImg .menu__img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: cover; }
+      .main__menu .menu .menu__element .menu__text {
+        padding: 15px 0 0px;
+        display: flex;
+        flex-direction: column; }
+        .main__menu .menu .menu__element .menu__text .menu__name {
+          font-family: "Poppins", sans-serif;
+          font-weight: 700;
+          color: #111;
+          margin-bottom: 0px; }
+        .main__menu .menu .menu__element .menu__text .menu__parrafo {
+          font-family: "Poppins", sans-serif;
+          font-weight: 400; }
 
 @media only screen and (max-width: 986px) {
   header .navBar {
@@ -548,9 +581,10 @@ footer {
     footer .footer-copyright p {
       text-align: center;
       margin-top: 5px; }
-  .menu {
-    grid-template-columns: repeat(2, 1fr);
-    padding: 90px 5px 20px 5px; } }
+  .main__menu {
+    padding: 100px 15px 50px 15px; }
+  .main__menu .menu {
+    grid-template-columns: repeat(2, 1fr); } }
 
 @media only screen and (max-width: 480px) {
   header .logo-cont {
@@ -582,6 +616,8 @@ footer {
       text-align: center; }
   .menu__element {
     grid-column: 1/-1; }
+  .main__menu .main__menu__cont .main__menu__title {
+    font-size: 3em; }
   .title-lg {
     font-size: 2em; } }
 
@@ -594,5 +630,5 @@ footer {
     width: 100%; }
   footer .footerRedes {
     width: 70%; }
-  .menu {
+  .main__menu .menu {
     grid-template-columns: repeat(2, 1fr); } }
