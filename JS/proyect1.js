@@ -16,6 +16,5 @@ agregar();
 var baseDatos=[];
 function agregar (){
     baseDatos.push(nuevoPedido);
-    console.log(baseDatos)
-
+    console.log(baseDatos);
 }
