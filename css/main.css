@@ -365,8 +365,7 @@ main {
     padding: 75px 50px;
     background: #FFFFFF;
     box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
-    width: 95%;
-    margin: auto; }
+    width: 50%; }
     .contact .contact__form .contact__form__title {
       color: #111;
       font-size: 1.5em;
@@ -375,43 +374,41 @@ main {
     .contact .contact__form .inputBox {
       position: relative;
       width: 100%;
-      margin-bottom: 20px; }
-      .contact .contact__form .inputBox input {
-        width: 100%;
-        border: 1px solid #555;
-        padding: 10px;
-        color: #111;
-        outline: none;
-        font-size: 16px;
-        font-weight: 300;
-        resize: none; }
-        .contact .contact__form .inputBox input[type="submit"] {
-          font-size: 1em;
-          color: #fff;
-          background: #844e8d;
-          display: inline-block;
-          text-transform: uppercase;
-          letter-spacing: 2px;
-          transition: 00.5s;
-          max-width: 100px;
-          font-weight: 500;
-          border: none;
-          cursor: pointer; }
-      .contact .contact__form .inputBox textarea {
-        width: 100%;
-        border: 1px solid #555;
-        padding: 10px;
-        color: #111;
-        outline: none;
-        font-size: 16px;
-        font-weight: 300;
-        resize: none; }
-    .contact .contact__form #cont-msj {
-      margin-top: 20px; }
+      margin-bottom: 20px;
+      border: 1px solid #555; }
+    .contact .contact__form input {
+      width: 100%;
+      border: 1px solid red;
+      padding: 10px;
+      color: #111;
+      outline: none;
+      font-size: 16px;
+      font-weight: 300;
+      resize: none; }
+    .contact .contact__form #botonEnviar {
+      font-size: 1em;
+      color: #fff;
+      background: #844e8d;
+      display: inline-block;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      transition: 00.5s;
+      max-width: 100px;
+      font-weight: 500;
+      border: none;
+      cursor: pointer; }
+  .contact textarea {
+    width: 100%;
+    border: 1px solid #555;
+    padding: 10px;
+    color: #111;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    resize: none; }
 
-.prueba2 {
-  font-size: 1.5em;
-  color: red; }
+#cont-msj {
+  margin-top: 20px; }
 
 footer {
   width: 100%;
